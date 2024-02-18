@@ -5,8 +5,8 @@ import 'package:flutter/gestures.dart';
 import 'dart:ui';
 
 import 'package:google_fonts/google_fonts.dart';
+import 'package:medappoint/page-1/appointment.dart';
 import 'package:medappoint/page-1/dashboard.dart';
-import 'package:medappoint/page-1/loginpage.dart';
 import 'package:medappoint/page-1/profile.dart';
 
 import 'utils.dart';
@@ -30,7 +30,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: loginpage(),
+      home:  Scaffold(
+        body: Dashboard(),
+      ),
     );
   }
 }

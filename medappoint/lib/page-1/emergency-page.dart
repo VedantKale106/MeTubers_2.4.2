@@ -41,17 +41,8 @@ class Emergency extends StatelessWidget {
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      Container(
-                        // epbackxKR (42:21)
-                        margin: EdgeInsets.fromLTRB(
-                            0 * fem, 0 * fem, 25 * fem, 2 * fem),
-                        width: 24.44 * fem,
-                        height: 15 * fem,
-                        child: Image.asset(
-                          'assets/page-1/images/ep-back.png',
-                          width: 24.44 * fem,
-                          height: 15 * fem,
-                        ),
+                      const SizedBox(
+                        width: 67,
                       ),
                       Center(
                         // emergencyUHm (26:13)
